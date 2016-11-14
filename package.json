@@ -1,7 +1,7 @@
 {
-  "name": "your-app",
-  "description": "Description",
-  "author": "Your Name",
+  "name": "first-brunch",
+  "description": "The first brunch HTML5-application",
+  "author": "Khusein",
   "version": "0.0.1",
   "repository": {
     "type": "git",
