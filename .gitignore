@@ -1,3 +1,23 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
 # Logs
 logs
 *.log
@@ -26,13 +46,15 @@ coverage
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
-node_modules
-jspm_packages
-public
-
 # Optional npm cache directory
 .npm
 
 # Optional REPL history
 .node_repl_history
+
+# NPM packages folder.
+node_modules/
+jspm_packages/
+
+# Brunch output folder.
+public/
